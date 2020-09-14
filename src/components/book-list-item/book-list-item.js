@@ -10,7 +10,7 @@ const BookListItem = ({ book, onAddedToCart }) => {
         <img src={coverImage} alt="cover" />
       </div>
       <div className="book-details">
-        <Link to="/book">
+        <Link to="/re-store/book">
           <span className="book-title">{title}</span>
         </Link>
         <div className="book-author">{author}</div>
